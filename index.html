@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeowSMS | Info</title>
+    <link rel="icon" type="image/x-icon" href="./avatar.png">
+    <style>
+        @font-face {
+            font-family: 'e-Ukraine Head';
+            src: url(/e-Ukraine-Bold.woff2) format('woff2'),
+                url(/e-Ukraine-Bold.woff) format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        body {
+            font-family: 'e-Ukraine Head';
+            text-align: center;
+            background-color: #ffffff;
+            margin: 0;
+            padding: 10px;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        h1 {
+            font-family: 'e-Ukraine Head';
+            color: #333333;
+            margin-bottom: 10px;
+        }
+        p {
+            color: #666666;
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 10px;
+        }
+        .button {
+            display: inline-block;
+            padding: 8px 16px;
+            background-color: #0088cc;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 14px;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #006699;
+        }
+        .avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        .button-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 100%;
+            margin-top: 10px;
+        }
+        .button-wrapper .button {
+            margin: 10px;
+        }
+        img[alt="www.000webhost.com"] {
+            display: none;
+        }
+        @media screen and (max-width: 400px) {
+            .avatar {
+                width: 80px;
+                height: 80px;
+            }
+            h1 {
+                font-size: 24px;
+            }
+            p {
+                font-size: 15px;
+            }
+            .button-wrapper .button {
+                margin: 6px;
+                font-size: 12px;
+                padding: 5px 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="./avatar.png" alt="MeowSMS Avatar" class="avatar">
+        <h1>MeowSMS</h1>
+        <p>SMS-bot for sending SMS in Europe</p>
+        <div class="button-wrapper">
+            <a href="https://docs.meowsms.app" class="button">API Docs</a>
+            <a href="https://t.me/MeowSMSBot" class="button">Telegram Bot</a>
+            <a href="https://t.me/k1ttyf" class="button">Administrator</a>
+        </div>
+    </div>
+</body>
+</html>
