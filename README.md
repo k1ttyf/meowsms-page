@@ -1,2 +1,2 @@
 # meowsms-page
-🔗 Link: https://meowsms.app
+🔗 Page link: https://meowsms.app/
